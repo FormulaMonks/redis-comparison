@@ -1,0 +1,25 @@
+Each benchmark iterates 1000 times for each operation
+
+Redis
+--------------------------------------------------------
+                 user     system      total        real
+write        0.230000   0.010000   0.240000 (  0.822115)
+read         0.210000   0.030000   0.240000 (  0.674979)
+update       0.140000   0.010000   0.150000 (  0.498526)
+Total benchmark time for Redis: 2.000050905s
+
+MongoDB
+--------------------------------------------------------
+                 user     system      total        real
+write        0.240000   0.020000   0.260000 (  0.741164)
+read         0.210000   0.020000   0.230000 (  1.053450)
+update       0.430000   0.050000   0.480000 (  2.194942)
+Total benchmark time for MongoDB: 3.994837796s
+
+Riak
+--------------------------------------------------------
+                 user     system      total        real
+write        1.390000   0.170000   1.560000 (  6.635914)
+read         1.350000   0.160000   1.510000 (  4.061969)
+update       3.030000   0.280000   3.310000 ( 11.235330)
+Total benchmark time for Riak: 21.959080865s

@@ -1,0 +1,21 @@
+Each benchmark iterates 1000000 times for each operation
+
+Redis
+--------------------------------------------------------
+                 user     system      total        real
+write      587.270000  84.980000 672.250000 (1684.695266)
+read       824.190000 149.300000 973.490000 (2255.657937)
+update     403.220000  64.130000 467.350000 (1375.096571)
+Total benchmark time for Redis: 5315.555560419s
+
+MongoDB
+--------------------------------------------------------
+                 user     system      total        real
+write      14031: Can't take a write lock while out of disk space
+Total benchmark time for MongoDB: 2241.544975724s
+
+Riak
+--------------------------------------------------------
+                 user     system      total        real
+write      Expected [200, 204, 300] from Riak but received 503. request timed out
+Total benchmark time for Riak: 1860.448331712s
